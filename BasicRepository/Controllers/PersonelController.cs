@@ -9,6 +9,8 @@ namespace BasicRepository.Controllers
     {
         Repository<Personel> _rep;
         ErrorModel _model;
+
+        int degisken;
         public PersonelController(Repository<Personel> rep, ErrorModel model)
         {
             _rep = rep;
